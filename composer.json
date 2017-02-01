@@ -1,0 +1,19 @@
+{
+  "name": "t3sec/urlhelper",
+  "description": "PHP  URL helper library",
+  "minimum-stability": "stable",
+  "keywords": ["url", "download", "http"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Marcus Krause",
+      "email": "marcus#exp2017@t3sec.info"
+    }
+  ],
+  "homepage": "https://github.com/t3sec/php-library-helper-url",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {"T3sec\\Url\\": "src"}
+  },
+  "require": {}
+}
