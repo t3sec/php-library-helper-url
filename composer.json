@@ -1,7 +1,6 @@
 {
   "name": "t3sec/urlhelper",
   "description": "PHP  URL helper library",
-  "minimum-stability": "stable",
   "keywords": ["url", "download", "http"],
   "type": "library",
   "authors": [
