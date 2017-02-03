@@ -1,2 +1,2 @@
-# php-library-helper-url
-PHP URL helper library
+# Composer package t3sec/urlhelper
+a PHP url helper library
