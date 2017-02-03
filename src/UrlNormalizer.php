@@ -4,7 +4,9 @@ namespace T3sec\Url;
 
 class UrlNormalizer
 {
-
+    /**
+     * @var  string|null
+     */
     protected $originUrl = NULL;
 
 
@@ -14,7 +16,7 @@ class UrlNormalizer
     }
 
     /**
-     * @param  string $originUrl
+     * @param  string  $originUrl
      * @return  UrlNormalizer  class instance
      */
     public function setOriginUrl($originUrl)
@@ -24,7 +26,7 @@ class UrlNormalizer
     }
 
     /**
-     * @return string
+     * @return  string|null
      */
     public function getOriginUrl()
     {
@@ -64,6 +66,9 @@ class UrlNormalizer
         return $urlInfo;
     }
 
+    /**
+     * @return  void
+     */
     public function reset()
     {
         $this->originUrl = NULL;
